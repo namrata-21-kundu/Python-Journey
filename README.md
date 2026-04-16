@@ -1,36 +1,120 @@
-# Rock Paper Scissors 🎮
-A simple rock paper scissor game using Python where the user plays against the computer.
+# 🐍 Python Journey
 
-# Overview 
-This is a simple terminal-based "rock paper scissor" game between User and Computer, which is built using Python. 
+A personal collection of Python programs built while learning, practicing, and experimenting with core programming concepts.
 
-# How to Play
+This repository serves as both:
 
-* Choose **Rock**, **Paper**, or **Scissors**
-* The computer randomly selects one option
-* The winner is decided using standard rules:
+* 📘 A learning journal (for myself)
+* 🛠️ A reference for beginners exploring Python through small projects
 
-  * Rock beats Scissors
-  * Scissors beats Paper
-  * Paper beats Rock
+---
 
-# Rules
+## 📂 Structure
 
-* If both choices are the same, the game is a **draw**
-* Otherwise, the winner is declared instantly
+```
+.
+├── games/
+│   ├── rock_paper_scissors.py
+│   └── number_guessing.py
+│
+├── cli_apps/
+│   └── todo_cli.py
+│
+└── README.md
+```
 
-# Technology Used
-Python
+---
 
-# Features 
-- using random computer selection using *random* module
-- case insensitive (used .upper() ) for easy user accesss
-- infinite game play loop till the user decides to play
-- clean win/loss/tie messages
+## 🚀 What's Inside
 
- # Run Code
-  clone the repository and run :
-[rock_paper_scissor.py
-](https://github.com/namrata-21-kundu/Rock-Paper-Scissor/blob/main/rock_paper_scissor.py)
+### 🎮 Games
 
+Simple interactive programs to practice logic building and control flow:
 
+* Rock Paper Scissors
+* Number Guessing Game
+
+### 🧾 CLI Applications
+
+Basic command-line tools:
+
+* To-Do List Manager
+
+---
+
+## 🎯 Purpose
+
+* Practice Python fundamentals
+* Strengthen problem-solving skills
+* Build consistency through small projects
+* Maintain a structured coding journal
+
+---
+
+## ⚙️ Setup
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### 2. (Optional) Create virtual environment
+
+```
+python -m venv venv
+```
+
+### 3. Activate it
+
+Windows:
+
+```
+venv\Scripts\activate
+```
+
+Mac/Linux:
+
+```
+source venv/bin/activate
+```
+
+---
+
+## ▶️ Running the Programs
+
+```
+python games/rock_paper_scissors.py
+python games/number_guessing.py
+python cli_apps/todo_cli.py
+```
+
+---
+
+## 📌 Notes
+
+* Projects are intentionally kept simple and focused on fundamentals
+* Code may evolve over time as concepts improve
+* Refactoring and improvements are part of the learning process
+
+---
+
+## 🔄 Future Additions
+
+* More CLI tools
+* File handling projects
+* Beginner automation scripts
+* Possibly GUI versions of existing projects
+
+---
+
+## 🤝 Contributions
+
+This is primarily a personal learning repository, but suggestions and improvements are always welcome.
+
+---
+
+## 📜 License
+
+Open for learning and personal use.
