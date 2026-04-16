@@ -1,0 +1,50 @@
+# Development Commands Cheat Sheet
+---
+
+## Virtual Environment
+
+Create virtual environment:
+python -m venv venv
+
+Activate (Windows PowerShell):
+venv\Scripts\activate
+
+Deactivate:
+deactivate
+
+---
+
+## Package Management
+
+Save installed packages:
+pip freeze > requirements.txt
+
+Install from requirements file:
+pip install -r requirements.txt
+
+---
+
+## Git Commands
+
+Add changes:
+git add .
+
+Commit changes:
+git commit -m "your message"
+
+Push to GitHub:
+git push
+
+---
+
+## Run Programs
+
+python "Mini Projects/rock_paper_scissors.py"
+
+---
+
+## Notes
+
+* Activate virtual environment before installing packages
+* Use clear commit messages
+* Keep folder names consistent
