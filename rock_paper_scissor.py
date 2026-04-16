@@ -1,4 +1,4 @@
-import random
+import random     
 user_marks = 0 
 comp_marks = 0
 while(True):
