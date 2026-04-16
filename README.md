@@ -13,12 +13,10 @@ This repository serves as both:
 
 ```
 .
-├── games/
+├── Mini Projects/
 │   ├── rock_paper_scissors.py
-│   └── number_guessing.py
-│
-├── cli_apps/
-│   └── todo_cli.py
+│   └── NumberGuessGame.py
+│   └── ToDoList.py
 │
 └── README.md
 ```
@@ -33,11 +31,6 @@ Simple interactive programs to practice logic building and control flow:
 
 * Rock Paper Scissors
 * Number Guessing Game
-
-### 🧾 CLI Applications
-
-Basic command-line tools:
-
 * To-Do List Manager
 
 ---
@@ -56,8 +49,8 @@ Basic command-line tools:
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/namrata-21-kundu/Python-Journey.git
+cd Python-Journey
 ```
 
 ### 2. (Optional) Create virtual environment
@@ -85,9 +78,9 @@ source venv/bin/activate
 ## ▶️ Running the Programs
 
 ```
-python games/rock_paper_scissors.py
-python games/number_guessing.py
-python cli_apps/todo_cli.py
+python Mini Projects/rock_paper_scissors.py
+python Mini Projects/NumberGuessGame.py
+python Mini Projects/ToDoList.py
 ```
 
 ---
