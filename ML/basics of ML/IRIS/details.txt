@@ -1,0 +1,33 @@
+Project: Predict Iris Flower Species
+
+Goal: Build a model that can classify iris flowers into three species based on measurements.
+
+Dataset: Famous Iris dataset (built into scikit-learn)
+
+150 samples
+4 features: sepal length, sepal width, petal length, petal width
+3 classes: Setosa, Versicolor, Virginica
+Type: Classification (Supervised Learning)
+
+Understand the Problem
+Question: Can we predict iris species from flower measurements?
+
+Business Value:
+
+Botanical classification
+Quality control in flower production
+Educational example
+Success Criteria:
+
+Accuracy > 90%
+Model can classify new flowers correctly
+Define Inputs and Outputs
+Inputs (Features):
+
+Sepal length (cm)
+Sepal width (cm)
+Petal length (cm)
+Petal width (cm)
+Output (Target):
+
+Species: Setosa, Versicolor, or Virginica
