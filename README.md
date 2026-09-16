@@ -1,113 +1,43 @@
-# 🐍 Python Journey
+# 🐍 Python-Journey
 
-A personal collection of Python programs built while learning, practicing, and experimenting with core programming concepts.
+A personal repository documenting my journey of learning and practicing **Python**, from programming fundamentals to **Data Analysis, Flask, and Machine Learning**.
 
-This repository serves as both:
-
-* 📘 A learning journal (for myself)
-* 🛠️ A reference for beginners exploring Python through small projects
+This repository contains practice programs, questions, mini-projects, notes, references, and ML experiments that I build while learning.
 
 ---
 
-## 📂 Structure
+## 📌 What This Repository Covers
 
-```
-.
-├── Mini Projects/
-│   ├── rock_paper_scissors.py
-│   └── NumberGuessGame.py
-│   └── ToDoList.py
+- 🐍 Python Programming
+- 🔢 NumPy
+- 🐼 Pandas
+- 📊 Matplotlib
+- 🌐 Flask
+- 🤖 Machine Learning
+- 📈 Linear Regression
+- 🧠 ML Practice Questions
+- 🛠️ Mini Projects
+- 📝 Quick References
+
+---
+
+## 📂 Repository Structure
+
+```text
+Python-Journey/
 │
-└── README.md
-```
-
----
-
-## 🚀 What's Inside
-
-### 🎮 Games
-
-Simple interactive programs to practice logic building and control flow:
-
-* Rock Paper Scissors
-* Number Guessing Game
-* To-Do List Manager
-
----
-
-## 🎯 Purpose
-
-* Practice Python fundamentals
-* Strengthen problem-solving skills
-* Build consistency through small projects
-* Maintain a structured coding journal
-
----
-
-## ⚙️ Setup
-
-### 1. Clone the repository
-
-```
-git clone https://github.com/namrata-21-kundu/Python-Journey.git
-cd Python-Journey
-```
-
-### 2. (Optional) Create virtual environment
-
-```
-python -m venv venv
-```
-
-### 3. Activate it
-
-Windows:
-
-```
-venv\Scripts\activate
-```
-
-Mac/Linux:
-
-```
-source venv/bin/activate
-```
-
----
-
-## ▶️ Running the Programs
-
-```
-python Mini Projects/rock_paper_scissors.py
-python Mini Projects/NumberGuessGame.py
-python Mini Projects/ToDoList.py
-```
-
----
-
-## 📌 Notes
-
-* Projects are intentionally kept simple and focused on fundamentals
-* Code may evolve over time as concepts improve
-* Refactoring and improvements are part of the learning process
-
----
-
-## 🔄 Future Additions
-
-* More CLI tools
-* File handling projects
-* Beginner automation scripts
-* Possibly GUI versions of existing projects
-
----
-
-## 🤝 Contributions
-
-This is primarily a personal learning repository, but suggestions and improvements are always welcome.
-
----
-
-## 📜 License
-
-Open for learning and personal use.
+├── Flask_/
+│   └── Flask practice and examples
+│
+├── ML/
+│   └── Machine Learning concepts, examples and experiments
+│
+├── Mini Projects/
+│   └── Small Python-based projects
+│
+├── Programs/
+│   └── Python practice programs and problem solving
+│
+├── README.md
+├── quick_references.txt
+└── requirements.txt
