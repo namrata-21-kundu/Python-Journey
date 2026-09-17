@@ -1,0 +1,29 @@
+Question
+
+You are given a dataset student_study_hours.csv containing the number of hours students studied and their corresponding examination scores.
+
+Using Linear Regression, perform the following operations:
+
+A. Data Preparation
+Load the CSV file using Pandas.
+Display the first 5 rows.
+Find the shape of the dataset.
+Check whether there are any missing values.
+Identify the independent and dependent variables.
+
+B. Model Building
+Use Study_Hours as the input feature X and Exam_Score as the target y.
+Divide the dataset into 80% training data and 20% testing data.
+Create a Linear Regression model.
+Train the model using the training data.
+Predict the exam scores for the test data.
+
+C. Model Evaluation
+Calculate the Mean Squared Error (MSE).
+Calculate the R² score.
+Display the coefficient (slope) and intercept.
+
+D. Prediction
+Predict the examination score of a student who studies 6 hours.
+E. Visualization
+Plot the original data points and the regression line.
