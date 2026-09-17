@@ -1,0 +1,43 @@
+Multiple Linear Regression — House Price Prediction
+
+Using house_price_data.csv, build a Multiple Linear Regression model to predict house prices.
+
+Perform the following:
+
+A. Data Preparation
+Load the dataset using Pandas.
+Display the first 5 rows.
+Find the shape of the dataset.
+Check for missing values.
+Display the data types of each column.
+
+B. Feature Selection
+Identify the independent variables (X).
+Identify the dependent variable (y).
+
+Use:
+Area_sqft
+Bedrooms
+Age_years
+as features 
+
+and:
+Price_lakhs
+as the target.
+
+C. Model Building
+Divide the data into 80% training and 20% testing.
+Create a LinearRegression model.
+Train the model using the training data.
+Predict house prices for the test data.
+
+D. Evaluation
+Calculate MSE.
+Calculate R² score.
+Display the coefficients and intercept.
+
+E. Prediction
+Predict the price of a house having:
+Area = 2000 sq ft
+Bedrooms = 4
+Age = 5 years
