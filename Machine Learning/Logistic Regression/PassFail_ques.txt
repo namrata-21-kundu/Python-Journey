@@ -1,0 +1,14 @@
+Question
+
+You are given a dataset containing information about students' study hours, attendance percentage, and whether they passed or failed.
+
+Build a Logistic Regression model to predict whether a student will pass based on their study hours and attendance.
+
+Tasks
+Load the dataset using Pandas.
+Display the dataset and check its basic information.
+Separate the independent variables (X) and dependent variable (y).
+Split the data into training and testing sets.
+Train a Logistic Regression model.
+Predict whether the students in the test set will pass or fail.
+Calculate the model's accuracy.
