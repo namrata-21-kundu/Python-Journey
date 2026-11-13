@@ -1,0 +1,26 @@
+Problem Statement
+
+You are given movie data containing:
+
+Rating
+Runtime_Minutes
+Votes_Thousands
+Budget_Million
+
+Build a K-Nearest Neighbors (KNN) classification model to predict whether a movie is:
+
+1 → Popular
+0 → Not Popular
+
+We will:
+
+Load the dataset
+Understand the data
+Separate features and target
+Split into training and testing data
+Scale the features
+Train a KNN model
+Make predictions
+Evaluate accuracy
+Test different K values
+Predict a completely new movie
